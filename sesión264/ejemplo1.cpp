@@ -1,7 +1,13 @@
-//schiw
+/*Realice un programa que permita:
+1. ingresar x cantidad de numero
+2. calcular la suma de dichos numeros 
+3.mostrar todos los numeros 
+4.salir 
+
+uso de switch*/
 #include <iostream>
 
-using namespace ctd;
+using namespace std;
 //contante
 #define MAX 8
 
@@ -20,39 +26,41 @@ void agregarNum (int num){
    
 }
 
-int sumar (int uLtELem == -1){
-    if (uLtELem=6){
+int sumar (int suma, int uLtELem)
+{
+    if (uLtELem=-1){
         return suma;
     }
     suma = suma + numS (uLtELem);
-    sumar[uLtELem -1];
+    sumar[suma,uLtELem -1];
 
 }
 
 void menu(){
     int suma=0;
-    int opc;
+    int op,num;
     cout <<"1. Agregar elemento."<<end1;
     cout <<"2. Sumar."<<end1;
     cout <<"3. Mostrar."<<end1;
     cout <<"4. Salir."<<end1;
-    cin >> (op);
+    cin >> op;
 
 
     switch (op)   
     {
     case 1:
-    cout<<"Dime el numero: ";
+    cout<<"Dime un numero: ";
     cin>> num;
     agregarNum(num);
     break;
 
     case 2:
-    cout<<"La suma es: "<< sumar(suma,pos -1)<<end1;
+    cout<<"La suma es: "<< sumar(suma,pos -1);
     break;
 
     case 4:
     break;
+    
     default:
     cout << "No existe la opción... \n";
     break;
