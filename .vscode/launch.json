@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/labc204.UAM/Documents/logaltSSMS",
-      "program": "c:/Users/labc204.UAM/Documents/logaltSSMS/build/Debug/outDebug",
+      "cwd": "c:/Users/mena4/Desktop/logaltSSMS-2",
+      "program": "c:/Users/mena4/Desktop/logaltSSMS-2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
