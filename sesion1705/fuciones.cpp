@@ -7,6 +7,7 @@ using namespace std;
 void menu();
 void ingresarEdades();
 void principal();
+void showages();
 
 /*funciones*/
 void menu(){
@@ -41,6 +42,9 @@ void start(){
         case 1:
             ingresarEdades();
             break;
+        case 2:
+            showages();
+            break;
         case 6:
             cout<<"adios....!"<<endl;
             break;
@@ -48,7 +52,15 @@ void start(){
         default:
             break;
         }
-
-    
     }
+}
+
+void showages(){
+    system("cls");
+    cout << "edades: " << endl;
+    for (int i = 0; i < post; i++)
+    {
+        cout<<age[i]<<endl;
+    }
+    system("pause");
 }
