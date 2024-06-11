@@ -1,8 +1,8 @@
 #define MAX_REG 100
 
-typedef struct CIUDAD {
+typedef struct CIUDAD{
     int id;
-    char nimbre[50];
+    char nombre[50];
     char descripcion[100];
 }
 
